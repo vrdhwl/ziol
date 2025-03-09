@@ -3745,7 +3745,7 @@
 	(footprint "ScottoKeebs_MX:MX_PCB_1.00u"
 		(layer "F.Cu")
 		(uuid "103fb8e9-2797-4dde-87de-b2bc71661982")
-		(at 66.525 123.525)
+		(at 66.525 117.825)
 		(descr "MX keyswitch PCB Mount Keycap 1.00u")
 		(tags "MX Keyboard Keyswitch Switch PCB Cutout Keycap 1.00u")
 		(property "Reference" "S8"
@@ -5109,7 +5109,7 @@
 	(footprint "ScottoKeebs_MX:MX_PCB_1.00u"
 		(layer "F.Cu")
 		(uuid "1c956321-33b5-4e21-a612-b7081a596e7e")
-		(at 85.525 66.55)
+		(at 85.525 60.85)
 		(descr "MX keyswitch PCB Mount Keycap 1.00u")
 		(tags "MX Keyboard Keyswitch Switch PCB Cutout Keycap 1.00u")
 		(property "Reference" "S14"
@@ -10037,7 +10037,7 @@
 	(footprint "ScottoKeebs_MX:MX_PCB_1.00u"
 		(layer "F.Cu")
 		(uuid "4c821c93-f245-4b4b-8152-5af45a4e1b67")
-		(at 104.525 66.525)
+		(at 104.525 60.825)
 		(descr "MX keyswitch PCB Mount Keycap 1.00u")
 		(tags "MX Keyboard Keyswitch Switch PCB Cutout Keycap 1.00u")
 		(property "Reference" "S18"
@@ -13049,7 +13049,7 @@
 	(footprint "ScottoKeebs_MX:MX_PCB_1.00u"
 		(layer "F.Cu")
 		(uuid "5c962b9d-7a1c-4d10-993e-be9c50be8980")
-		(at 104.525 47.525)
+		(at 104.525 41.825)
 		(descr "MX keyswitch PCB Mount Keycap 1.00u")
 		(tags "MX Keyboard Keyswitch Switch PCB Cutout Keycap 1.00u")
 		(property "Reference" "S17"
@@ -13383,7 +13383,7 @@
 	(footprint "ScottoKeebs_MCU:Raspberry_Pi_Pico"
 		(layer "F.Cu")
 		(uuid "606b03d0-cbab-4e51-a447-c0a615094709")
-		(at 23.545 -111.91875)
+		(at 129.81 59.49)
 		(property "Reference" "U1"
 			(at 0 -32 0)
 			(layer "F.SilkS")
@@ -16729,7 +16729,7 @@
 	(footprint "ScottoKeebs_MX:MX_PCB_1.00u"
 		(layer "F.Cu")
 		(uuid "760ff148-c015-4c78-8abf-8be2cd2d4507")
-		(at 104.525 85.525)
+		(at 104.525 79.825)
 		(descr "MX keyswitch PCB Mount Keycap 1.00u")
 		(tags "MX Keyboard Keyswitch Switch PCB Cutout Keycap 1.00u")
 		(property "Reference" "S19"
@@ -22297,7 +22297,7 @@
 	(footprint "ScottoKeebs_MX:MX_PCB_1.00u"
 		(layer "F.Cu")
 		(uuid "a1aea505-750b-4931-aa5c-52045d4134ed")
-		(at 85.525 104.525)
+		(at 85.525 98.825)
 		(descr "MX keyswitch PCB Mount Keycap 1.00u")
 		(tags "MX Keyboard Keyswitch Switch PCB Cutout Keycap 1.00u")
 		(property "Reference" "S12"
@@ -25053,7 +25053,7 @@
 	(footprint "ScottoKeebs_MX:MX_PCB_1.00u"
 		(layer "F.Cu")
 		(uuid "bfd7f42a-02d0-413c-a8ee-e8ef42fdf7bd")
-		(at 104.525 104.525)
+		(at 104.525 98.825)
 		(descr "MX keyswitch PCB Mount Keycap 1.00u")
 		(tags "MX Keyboard Keyswitch Switch PCB Cutout Keycap 1.00u")
 		(property "Reference" "S16"
@@ -25721,7 +25721,7 @@
 	(footprint "ScottoKeebs_MX:MX_PCB_1.00u"
 		(layer "F.Cu")
 		(uuid "cb07c17a-08fd-4984-b34d-cfaacbaa3774")
-		(at 85.525 85.525)
+		(at 85.525 79.825)
 		(descr "MX keyswitch PCB Mount Keycap 1.00u")
 		(tags "MX Keyboard Keyswitch Switch PCB Cutout Keycap 1.00u")
 		(property "Reference" "S15"
@@ -26417,7 +26417,7 @@
 	(footprint "ScottoKeebs_MX:MX_PCB_1.00u"
 		(layer "F.Cu")
 		(uuid "d4604e57-d7af-46b1-813e-909d6107ce29")
-		(at 85.525 47.525)
+		(at 85.525 41.825)
 		(descr "MX keyswitch PCB Mount Keycap 1.00u")
 		(tags "MX Keyboard Keyswitch Switch PCB Cutout Keycap 1.00u")
 		(property "Reference" "S13"
@@ -29479,7 +29479,7 @@
 	(footprint "ScottoKeebs_MX:MX_PCB_1.00u"
 		(layer "F.Cu")
 		(uuid "eb9eaaf7-c8b6-4c7b-b39a-b48f670f906f")
-		(at 123.525 123.525)
+		(at 123.525 117.825)
 		(descr "MX keyswitch PCB Mount Keycap 1.00u")
 		(tags "MX Keyboard Keyswitch Switch PCB Cutout Keycap 1.00u")
 		(property "Reference" "S20"
@@ -32677,5 +32677,18 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(gr_poly
+		(pts
+			(xy 17.1 36.1) (xy 17.1 115.9) (xy 53.2 115.9) (xy 53.2 129.2) (xy 142.5 129.2) (xy 144.4 30.4) (xy 77.9 30.4)
+			(xy 77.9 13.3) (xy 57 13.3)
+		)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "fc02e42a-9259-4c06-8017-378a8f373969")
 	)
 )

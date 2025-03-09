@@ -5,291 +5,6 @@
 	(uuid "56a300b6-d754-4007-b6d3-3c08f24a5d32")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector_Generic_Shielded:Conn_01x06_Shielded"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0.254 7.366 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x06_Shielded"
-				(at 1.016 -9.906 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic shielded connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??-1SH*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x06_Shielded_1_1"
-				(rectangle
-					(start -1.27 6.35)
-					(end 1.27 -8.89)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.016 -7.493)
-					(end 0.254 -7.747)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.016 -4.953)
-					(end 0.254 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.016 -2.413)
-					(end 0.254 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.016 0.127)
-					(end 0.254 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.016 2.667)
-					(end 0.254 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.016 5.207)
-					(end 0.254 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.016 6.096)
-					(end 1.016 -8.636)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 4.064)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 4.064)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 4.064)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 4.064)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 4.064)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -7.62 0)
-					(length 4.064)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -12.7 90)
-					(length 3.81)
-					(name "Shield"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "SH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "PJ324M:PJ324M"
 			(pin_names
 				(offset 1.016)
@@ -1952,373 +1667,6 @@
 				)
 			)
 		)
-		(symbol "UJC-H-G-SMT-P6-TR:UJC-H-G-SMT-P6-TR"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -7.62 13.462 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "UJC-H-G-SMT-P6-TR"
-				(at -7.62 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "UJC-H-G-SMT-P6-TR:SAMESKY_UJC-H-G-SMT-P6-TR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Same Sky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "3.16mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/UJC-H-G-SMT-P6-TR/Same+Sky/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "1.0"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/UJC-H-G-SMT-P6-TR/Same+Sky/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "UJC-H-G-SMT-P6-TR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "\n                        \n                            Type C, Power Only, 30 Vac, 3 A, Horizontal, Gold plated 3u, Surface Mount, 6 pin, capped, USB Receptacle\n                        \n"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Same Sky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "UJC-H-G-SMT-P6-TR_0_0"
-				(rectangle
-					(start -7.62 -12.7)
-					(end 7.62 12.7)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 12.7 -5.08 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "A12"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 5.08 180)
-					(length 5.08)
-					(name "CC1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "A5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 10.16 180)
-					(length 5.08)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "A9"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -5.08 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "B12"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 0 180)
-					(length 5.08)
-					(name "CC2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "B5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 10.16 180)
-					(length 5.08)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "B9"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -10.16 180)
-					(length 5.08)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "SH1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -10.16 180)
-					(length 5.08)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "SH2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -10.16 180)
-					(length 5.08)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "SH3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -10.16 180)
-					(length 5.08)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "SH4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-		)
 	)
 	(junction
 		(at 45.72 99.06)
@@ -2343,12 +1691,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18352780-e83f-44b3-8cef-fcfa7fd6a49f")
-	)
-	(junction
-		(at 157.48 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "195ca53a-3df0-478c-9699-908db19ef768")
 	)
 	(junction
 		(at 232.41 81.28)
@@ -2409,12 +1751,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "339a3a1c-07d9-4fb9-b5c0-3644a021cacc")
-	)
-	(junction
-		(at 162.56 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "348bc03a-33f6-4de9-9539-d004b965d5b7")
 	)
 	(junction
 		(at 180.34 147.32)
@@ -2597,12 +1933,6 @@
 		(uuid "b48e7233-4ebb-4364-a462-2986710f67bb")
 	)
 	(junction
-		(at 162.56 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b4b72b10-21f1-4a68-a27e-f5e7bec1ce13")
-	)
-	(junction
 		(at 31.75 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2663,12 +1993,6 @@
 		(uuid "c7d6a51e-3e44-4419-bd4a-c7efc5305cf3")
 	)
 	(junction
-		(at 190.5 19.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c98659fa-8889-4042-a781-9c8f87f97def")
-	)
-	(junction
 		(at 237.49 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2717,12 +2041,6 @@
 		(uuid "e6cac902-c1fb-4130-99a4-77d2075bb698")
 	)
 	(junction
-		(at 162.56 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e77bebc7-cbab-496d-84e6-28b9520d6811")
-	)
-	(junction
 		(at 250.19 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2745,12 +2063,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f0824038-214f-4f9e-af80-114dbb4c6bdc")
-	)
-	(junction
-		(at 160.02 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f2016746-8df2-4af6-8bf8-2ec4f90a6fbc")
 	)
 	(junction
 		(at 250.19 129.54)
@@ -2854,16 +2166,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 34.29) (xy 162.56 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07f62e2e-65fa-4f94-9230-0c24537906ea")
-	)
-	(wire
-		(pts
 			(xy 219.71 81.28) (xy 219.71 99.06)
 		)
 		(stroke
@@ -2891,16 +2193,6 @@
 			(type default)
 		)
 		(uuid "0b5683b2-d5c6-4348-b2d0-833ea0424ca7")
-	)
-	(wire
-		(pts
-			(xy 302.26 43.18) (xy 302.26 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cbe3c30-3756-4b9c-a121-13bef0452c27")
 	)
 	(wire
 		(pts
@@ -2954,26 +2246,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 62.23) (xy 154.94 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13f226f2-cb2d-4544-b016-66b3afd1f974")
-	)
-	(wire
-		(pts
-			(xy 302.26 55.88) (xy 312.42 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14e5f19c-a0c8-47e5-93d8-09640711bd4e")
-	)
-	(wire
-		(pts
 			(xy 64.77 63.5) (xy 82.55 63.5)
 		)
 		(stroke
@@ -2994,16 +2266,6 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 41.91) (xy 326.39 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19377ab1-3c81-4709-a2b2-ca9d640bb342")
-	)
-	(wire
-		(pts
 			(xy 50.8 33.02) (xy 50.8 26.67)
 		)
 		(stroke
@@ -3011,26 +2273,6 @@
 			(type default)
 		)
 		(uuid "1b4b3c1a-dafd-4ed3-943d-821973b389ac")
-	)
-	(wire
-		(pts
-			(xy 185.42 29.21) (xy 185.42 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d362215-cd2d-4eb6-91bd-6faad84aff1d")
-	)
-	(wire
-		(pts
-			(xy 186.69 34.29) (xy 186.69 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d3eb911-4910-4441-8d3e-5addebef35e2")
 	)
 	(wire
 		(pts
@@ -3064,16 +2306,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 36.83) (xy 157.48 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f2ee2eb-0876-4483-8071-857419216eff")
-	)
-	(wire
-		(pts
 			(xy 198.12 93.98) (xy 198.12 157.48)
 		)
 		(stroke
@@ -3091,16 +2323,6 @@
 			(type default)
 		)
 		(uuid "20fe4db4-c385-4014-ace1-9df15ad7cf5c")
-	)
-	(wire
-		(pts
-			(xy 312.42 45.72) (xy 312.42 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22c7ffb9-f467-407d-a3ff-5a3a4d6de4d2")
 	)
 	(wire
 		(pts
@@ -3164,16 +2386,6 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 41.91) (xy 326.39 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b1047db-dcad-4749-9227-8c15797c1091")
-	)
-	(wire
-		(pts
 			(xy 245.11 116.84) (xy 245.11 134.62)
 		)
 		(stroke
@@ -3181,16 +2393,6 @@
 			(type default)
 		)
 		(uuid "2c9930c1-5987-4cc5-b528-bb5c78b37925")
-	)
-	(wire
-		(pts
-			(xy 162.56 59.69) (xy 162.56 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e9a5e37-82e2-4594-aac8-65bc658ffbad")
 	)
 	(wire
 		(pts
@@ -3304,16 +2506,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 22.86) (xy 260.35 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f24ef66-34d1-4d81-ab01-7e45b64cc348")
-	)
-	(wire
-		(pts
 			(xy 203.2 129.54) (xy 203.2 165.1)
 		)
 		(stroke
@@ -3334,16 +2526,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 34.29) (xy 186.69 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46054606-40b6-4364-9e90-8110df92047a")
-	)
-	(wire
-		(pts
 			(xy 180.34 147.32) (xy 180.34 149.86)
 		)
 		(stroke
@@ -3361,16 +2543,6 @@
 			(type default)
 		)
 		(uuid "4932aa56-6442-4fe7-aff8-60dce16081c7")
-	)
-	(wire
-		(pts
-			(xy 190.5 12.7) (xy 190.5 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c5a7ecd-7c29-47fa-a0bd-fd60e0071e25")
 	)
 	(wire
 		(pts
@@ -3404,16 +2576,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 39.37) (xy 190.5 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57982202-6822-4a04-b59f-0f2f459ffe63")
-	)
-	(wire
-		(pts
 			(xy 31.75 68.58) (xy 31.75 86.36)
 		)
 		(stroke
@@ -3444,26 +2606,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 36.83) (xy 160.02 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5adc4a1d-ade8-4e1c-bb44-6c706380e69d")
-	)
-	(wire
-		(pts
-			(xy 270.51 12.7) (xy 190.5 12.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e2118ed-943a-4714-9aef-8eb5ffafa73b")
-	)
-	(wire
-		(pts
 			(xy 21.59 33.02) (xy 21.59 50.8)
 		)
 		(stroke
@@ -3481,16 +2623,6 @@
 			(type default)
 		)
 		(uuid "5f7f2625-27f9-421c-91cc-8047c7556bce")
-	)
-	(wire
-		(pts
-			(xy 326.39 54.61) (xy 334.01 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "620150a9-8c08-4ca1-854c-20480f31bc34")
 	)
 	(wire
 		(pts
@@ -3584,16 +2716,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 19.05) (xy 157.48 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75bae522-54c3-45d0-9747-6af7338e308a")
-	)
-	(wire
-		(pts
 			(xy 186.69 57.15) (xy 149.86 57.15)
 		)
 		(stroke
@@ -3601,26 +2723,6 @@
 			(type default)
 		)
 		(uuid "76943dee-8852-4703-a53a-3c573c396011")
-	)
-	(wire
-		(pts
-			(xy 160.02 24.13) (xy 160.02 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79152b17-6238-49ae-a69b-45e383e75ac9")
-	)
-	(wire
-		(pts
-			(xy 190.5 24.13) (xy 160.02 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d760e09-6251-4450-8201-f40fa36bd15d")
 	)
 	(wire
 		(pts
@@ -3721,26 +2823,6 @@
 			(type default)
 		)
 		(uuid "8cfacd7e-1f42-46cb-ac27-4f79e9f9ab88")
-	)
-	(wire
-		(pts
-			(xy 312.42 43.18) (xy 302.26 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ed39afb-a764-45d9-b72e-510db4e259a7")
-	)
-	(wire
-		(pts
-			(xy 157.48 31.75) (xy 162.56 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ef5ce06-d65f-48fe-ac8d-0f208398e05d")
 	)
 	(wire
 		(pts
@@ -3874,16 +2956,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 29.21) (xy 162.56 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9efab565-1309-4170-9383-c483181ad068")
-	)
-	(wire
-		(pts
 			(xy 64.77 45.72) (xy 73.66 45.72)
 		)
 		(stroke
@@ -3944,16 +3016,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 40.64) (xy 162.56 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aaa709ca-a593-49f6-9236-f7bf386c4e9d")
-	)
-	(wire
-		(pts
 			(xy 45.72 63.5) (xy 55.88 63.5)
 		)
 		(stroke
@@ -3994,16 +3056,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 36.83) (xy 162.56 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5fd471b-22ba-4ba6-a8a3-33fd958539e1")
-	)
-	(wire
-		(pts
 			(xy 149.86 62.23) (xy 154.94 62.23)
 		)
 		(stroke
@@ -4034,16 +3086,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 29.21) (xy 190.5 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b785086b-c556-4ffd-ac1c-cee04891cba7")
-	)
-	(wire
-		(pts
 			(xy 224.79 129.54) (xy 237.49 129.54)
 		)
 		(stroke
@@ -4061,16 +3103,6 @@
 			(type default)
 		)
 		(uuid "b8cc3976-93f2-47ad-a25c-6a66a3f66a3e")
-	)
-	(wire
-		(pts
-			(xy 334.01 44.45) (xy 334.01 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9b77d8a-d762-44fe-95bb-6769916e9eca")
 	)
 	(wire
 		(pts
@@ -4101,16 +3133,6 @@
 			(type default)
 		)
 		(uuid "bd71ac37-50d7-4716-af33-672c5d1885eb")
-	)
-	(wire
-		(pts
-			(xy 334.01 49.53) (xy 334.01 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c06684b7-2991-4ffe-9534-dafdfd1b8136")
 	)
 	(wire
 		(pts
@@ -4164,16 +3186,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 31.75) (xy 157.48 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9d1397c-22bc-4966-99cb-39e3d7dbf355")
-	)
-	(wire
-		(pts
 			(xy 180.34 162.56) (xy 180.34 165.1)
 		)
 		(stroke
@@ -4181,16 +3193,6 @@
 			(type default)
 		)
 		(uuid "cb5c5f2d-8bb4-4676-8be8-a2218f2fc9e0")
-	)
-	(wire
-		(pts
-			(xy 260.35 43.18) (xy 270.51 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc049fe1-25d3-4345-935b-da82c75d31e3")
 	)
 	(wire
 		(pts
@@ -4221,16 +3223,6 @@
 			(type default)
 		)
 		(uuid "d09ed1ba-ac8f-466b-a431-87c8cf64aa1a")
-	)
-	(wire
-		(pts
-			(xy 260.35 33.02) (xy 260.35 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0d7f662-1dc5-4dba-ae12-4f9d3fcea798")
 	)
 	(wire
 		(pts
@@ -4274,16 +3266,6 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 43.18) (xy 270.51 12.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2b53af6-bc21-4a22-a378-4a535e28dce8")
-	)
-	(wire
-		(pts
 			(xy 187.96 121.92) (xy 180.34 121.92)
 		)
 		(stroke
@@ -4321,16 +3303,6 @@
 			(type default)
 		)
 		(uuid "ea045923-3e7e-4821-bba2-3bc15e038427")
-	)
-	(wire
-		(pts
-			(xy 162.56 40.64) (xy 162.56 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea88943d-8dc8-425b-b1d5-bb7e05abd281")
 	)
 	(wire
 		(pts
@@ -4444,16 +3416,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 19.05) (xy 157.48 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6711701-54ed-4a21-8c90-0774d0d71b0d")
-	)
-	(wire
-		(pts
 			(xy 257.81 81.28) (xy 257.81 71.12)
 		)
 		(stroke
@@ -4461,16 +3423,6 @@
 			(type default)
 		)
 		(uuid "f8ce6e61-d5b3-4fcd-ab8d-ec772b81ff1d")
-	)
-	(wire
-		(pts
-			(xy 312.42 50.8) (xy 312.42 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc71f416-0f11-4f59-b5fa-b701572b60b9")
 	)
 	(wire
 		(pts
@@ -4743,221 +3695,6 @@
 			(project "ziol"
 				(path "/56a300b6-d754-4007-b6d3-3c08f24a5d32"
 					(reference "S8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "UJC-H-G-SMT-P6-TR:UJC-H-G-SMT-P6-TR")
-		(at 203.2 29.21 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0917ff2f-1b12-4a10-9e09-f8c2b73f70f2")
-		(property "Reference" "J5"
-			(at 212.09 27.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "UJC-H-G-SMT-P6-TR"
-			(at 212.09 30.4799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "UJC-H-G-SMT-P6-TR:SAMESKY_UJC-H-G-SMT-P6-TR"
-			(at 203.2 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 203.2 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Same Sky"
-			(at 203.2 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "3.16mm"
-			(at 203.2 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 203.2 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 203.2 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/UJC-H-G-SMT-P6-TR/Same+Sky/view-part/?ref=eda"
-			(at 203.2 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 203.2 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "1.0"
-			(at 203.2 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/UJC-H-G-SMT-P6-TR/Same+Sky/view-part/?ref=snap"
-			(at 203.2 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "UJC-H-G-SMT-P6-TR"
-			(at 203.2 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            Type C, Power Only, 30 Vac, 3 A, Horizontal, Gold plated 3u, Surface Mount, 6 pin, capped, USB Receptacle\n                        \n"
-			(at 203.2 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 203.2 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Same Sky"
-			(at 203.2 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "SH3"
-			(uuid "fc32319a-eb3e-4884-9b81-37defc9e7bb6")
-		)
-		(pin "B5"
-			(uuid "59913538-ca20-42ae-8650-0055e622cdd0")
-		)
-		(pin "B9"
-			(uuid "e809ed01-989b-470d-8ea9-2e5b1f76ddfa")
-		)
-		(pin "SH2"
-			(uuid "8d32374a-5ad2-4848-aee4-ca78825e95f2")
-		)
-		(pin "A9"
-			(uuid "a95973f2-495e-45d4-881a-01420e2e3344")
-		)
-		(pin "SH1"
-			(uuid "f4c32aaf-ab00-488f-8a4d-b6455c046699")
-		)
-		(pin "SH4"
-			(uuid "7a23c45d-b330-45a5-b3af-6cfaa5940086")
-		)
-		(pin "A12"
-			(uuid "f9b32e89-7db2-41c7-994f-728d5ae1f97d")
-		)
-		(pin "B12"
-			(uuid "65f1ca98-2494-465c-aced-1e6eb83a1582")
-		)
-		(pin "A5"
-			(uuid "694e84b6-459d-41cd-b20c-ec73c5af6ea8")
-		)
-		(instances
-			(project "ziol"
-				(path "/56a300b6-d754-4007-b6d3-3c08f24a5d32"
-					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -7446,91 +6183,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic_Shielded:Conn_01x06_Shielded")
-		(at 339.09 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "59e18128-feb1-4872-9af0-3779e52a1589")
-		(property "Reference" "J7"
-			(at 341.63 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x06_Shielded"
-			(at 341.63 49.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4125-xx-x-0190_6P_TopMnt_Horizontal"
-			(at 339.09 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 339.09 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic shielded connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 339.09 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2184abdc-8c71-4d1f-8213-b0bfb14806e6")
-		)
-		(pin "5"
-			(uuid "a9e17066-c6e3-4410-9d5d-d6a90682ead8")
-		)
-		(pin "SH"
-			(uuid "112fc2c5-56f0-48ab-9de6-effc690210ec")
-		)
-		(pin "3"
-			(uuid "1d1e5734-3a85-4923-a9e8-c02298489aa3")
-		)
-		(pin "6"
-			(uuid "8122bb5a-3014-4ed4-a4cf-e8f1f443589c")
-		)
-		(pin "1"
-			(uuid "33f35505-6c81-4065-b0c7-e327655d3266")
-		)
-		(pin "4"
-			(uuid "25d71253-87f8-4eac-92a9-44dacd1d2aff")
-		)
-		(instances
-			(project ""
-				(path "/56a300b6-d754-4007-b6d3-3c08f24a5d32"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
 		(at 45.72 41.91 90)
 		(unit 1)
@@ -8157,219 +6809,6 @@
 			(project "ziol"
 				(path "/56a300b6-d754-4007-b6d3-3c08f24a5d32"
 					(reference "S19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "UJC-H-G-SMT-P6-TR:UJC-H-G-SMT-P6-TR")
-		(at 88.9 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "730ae712-1279-45d6-9ba7-e2277ef192a6")
-		(property "Reference" "J3"
-			(at 88.9 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "UJC-H-G-SMT-P6-TR"
-			(at 88.9 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "UJC-H-G-SMT-P6-TR:SAMESKY_UJC-H-G-SMT-P6-TR"
-			(at 88.9 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 88.9 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Same Sky"
-			(at 88.9 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "3.16mm"
-			(at 88.9 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 88.9 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 88.9 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/UJC-H-G-SMT-P6-TR/Same+Sky/view-part/?ref=eda"
-			(at 88.9 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 88.9 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "1.0"
-			(at 88.9 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/UJC-H-G-SMT-P6-TR/Same+Sky/view-part/?ref=snap"
-			(at 88.9 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "UJC-H-G-SMT-P6-TR"
-			(at 88.9 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            Type C, Power Only, 30 Vac, 3 A, Horizontal, Gold plated 3u, Surface Mount, 6 pin, capped, USB Receptacle\n                        \n"
-			(at 88.9 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 88.9 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Same Sky"
-			(at 88.9 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "SH3"
-			(uuid "5381107f-14dd-40e5-8176-31f71ef22bc3")
-		)
-		(pin "B5"
-			(uuid "73f79a57-a4a6-4065-9b47-e4995eb80715")
-		)
-		(pin "B9"
-			(uuid "61628b8b-9446-4d19-930c-048ee765dbf0")
-		)
-		(pin "SH2"
-			(uuid "63cad8f1-d870-49a6-96f4-aae5c5bd2721")
-		)
-		(pin "A9"
-			(uuid "42259039-bdd3-4a30-b52f-5fdaf6e8b258")
-		)
-		(pin "SH1"
-			(uuid "50811730-afe6-4ab5-81e4-b31175f7f019")
-		)
-		(pin "SH4"
-			(uuid "ac48e83e-fc73-420e-b480-671418982af1")
-		)
-		(pin "A12"
-			(uuid "419581ec-a54e-4bed-8d6d-84f5c9ae8079")
-		)
-		(pin "B12"
-			(uuid "7446e731-2933-4f64-9ca1-a3d1af1b8a75")
-		)
-		(pin "A5"
-			(uuid "f1d0aabc-3ded-4df8-b776-9e6d0b508845")
-		)
-		(instances
-			(project ""
-				(path "/56a300b6-d754-4007-b6d3-3c08f24a5d32"
-					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -10527,91 +8966,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic_Shielded:Conn_01x06_Shielded")
-		(at 317.5 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bb75a37d-4b0b-46a4-81ac-dee330b12286")
-		(property "Reference" "J4"
-			(at 320.04 48.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x06_Shielded"
-			(at 320.04 50.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "UJC-H-G-SMT-P6-TR:SAMESKY_UJC-H-G-SMT-P6-TR"
-			(at 317.5 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 317.5 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic shielded connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 317.5 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a1f5f726-d2e1-4bf2-9465-76d1f43acec5")
-		)
-		(pin "5"
-			(uuid "0da3892a-040b-4c8f-b583-adff49c17663")
-		)
-		(pin "SH"
-			(uuid "aa2a9aed-d8a4-4fc8-8b04-d5188b1d1687")
-		)
-		(pin "3"
-			(uuid "826f7cde-2490-4d76-9671-a714ae14956c")
-		)
-		(pin "6"
-			(uuid "5e297acc-50c3-49e1-a5f8-38130be1637c")
-		)
-		(pin "1"
-			(uuid "ff7f9a6a-b189-445f-b1ee-d19962a196ff")
-		)
-		(pin "4"
-			(uuid "f23d82f2-dbaa-443c-96ad-83afd1c24039")
-		)
-		(instances
-			(project "ziol"
-				(path "/56a300b6-d754-4007-b6d3-3c08f24a5d32"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ScottoKeebs:MCU_Raspberry_Pi_Pico")
 		(at 134.62 40.64 0)
 		(unit 1)
@@ -11091,206 +9445,6 @@
 			(project "ziol"
 				(path "/56a300b6-d754-4007-b6d3-3c08f24a5d32"
 					(reference "S9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PJ324M:PJ324M")
-		(at 170.18 34.29 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e06956aa-2ee5-4ec6-b3fa-83e2db2bc896")
-		(property "Reference" "J1"
-			(at 177.8 33.0199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PJ324M"
-			(at 177.8 35.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "PJ324M:WENZHOU_PJ324M"
-			(at 170.18 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 170.18 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Wenzhou QingPu Electronics Co.Ltd"
-			(at 170.18 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "6.3mm"
-			(at 170.18 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "Package"
-			(at 170.18 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 170.18 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/PJ324M/Wenzhou+QingPu+Electronics+Co.Ltd/view-part/?ref=eda"
-			(at 170.18 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 170.18 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "N/A"
-			(at 170.18 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PJ324M/Wenzhou+QingPu+Electronics+Co.Ltd/view-part/?ref=snap"
-			(at 170.18 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "PJ324M"
-			(at 170.18 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            Headphone Stereo jack/Audio connector\n                        \n"
-			(at 170.18 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 170.18 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Wenzhou QingPu Electronics"
-			(at 170.18 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "02b1dd26-7858-417e-ba0e-6406db1d3f4d")
-		)
-		(pin "3"
-			(uuid "2fd4102e-c665-4381-8311-85c1c3bbab27")
-		)
-		(pin "2"
-			(uuid "3a0d6532-bd58-4245-bbe1-3cc5d4f974a3")
-		)
-		(pin "5"
-			(uuid "aaabd732-9954-40e9-a93c-3c8efdce37c7")
-		)
-		(pin "4"
-			(uuid "7ad803b3-00c7-43b0-b214-5e5aee06139d")
-		)
-		(instances
-			(project ""
-				(path "/56a300b6-d754-4007-b6d3-3c08f24a5d32"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -12035,219 +10189,6 @@
 			(project "ziol"
 				(path "/56a300b6-d754-4007-b6d3-3c08f24a5d32"
 					(reference "D17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "UJC-H-G-SMT-P6-TR:UJC-H-G-SMT-P6-TR")
-		(at 247.65 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fb1a772f-b5b2-4c0e-b32d-b12b7de14efe")
-		(property "Reference" "J6"
-			(at 247.65 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "UJC-H-G-SMT-P6-TR"
-			(at 247.65 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "UJC-H-G-SMT-P6-TR:SAMESKY_UJC-H-G-SMT-P6-TR"
-			(at 247.65 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 247.65 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Same Sky"
-			(at 247.65 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "3.16mm"
-			(at 247.65 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 247.65 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 247.65 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/UJC-H-G-SMT-P6-TR/Same+Sky/view-part/?ref=eda"
-			(at 247.65 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 247.65 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "1.0"
-			(at 247.65 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/UJC-H-G-SMT-P6-TR/Same+Sky/view-part/?ref=snap"
-			(at 247.65 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "UJC-H-G-SMT-P6-TR"
-			(at 247.65 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            Type C, Power Only, 30 Vac, 3 A, Horizontal, Gold plated 3u, Surface Mount, 6 pin, capped, USB Receptacle\n                        \n"
-			(at 247.65 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 247.65 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Same Sky"
-			(at 247.65 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "SH4"
-			(uuid "23d52bd9-a5ee-4157-b522-21e0c702917d")
-		)
-		(pin "A9"
-			(uuid "4e59bddb-8cd9-462f-b22f-703e690fa388")
-		)
-		(pin "B12"
-			(uuid "d1d39a26-0c7d-4393-9bed-7b1132dfa65c")
-		)
-		(pin "A12"
-			(uuid "eefc2d76-b9e1-4224-a35d-b833dac35233")
-		)
-		(pin "B5"
-			(uuid "d568120e-6abe-480a-b41e-358a4a43e8da")
-		)
-		(pin "SH3"
-			(uuid "2b4b2ff1-b445-482c-b48a-9b607f566b9e")
-		)
-		(pin "A5"
-			(uuid "48cbfd72-aad7-4ee6-acf5-2fac004ffd5d")
-		)
-		(pin "B9"
-			(uuid "5c859713-78cf-4dad-bd56-f3d59d4d0344")
-		)
-		(pin "SH2"
-			(uuid "881afcc6-d175-4091-a485-2e2d92a0e6b1")
-		)
-		(pin "SH1"
-			(uuid "5b3cdba7-250f-447c-868c-7c8f35dbfb2b")
-		)
-		(instances
-			(project ""
-				(path "/56a300b6-d754-4007-b6d3-3c08f24a5d32"
-					(reference "J6")
 					(unit 1)
 				)
 			)
